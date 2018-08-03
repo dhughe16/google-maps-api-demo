@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Map Demo</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0sjQ8PzXtpqZGJ9TPk_s08gGtMGYas1k&libraries=places">
+    </script>
+    <script src="app.js"></script>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <div id="main">
+      <h1>Event Creation Form</h1>
+      <form>
+        <label>Event title:</label>
+        <input type="text" name="title"/><br/>
+        <label>Date:</label>
+        <input type="pac-input" name="date"/><br/>
+        <label>Location:</label>
+        <input type="text" name="location" id="location-input"/><br/>
+        <label height="50px">Description:</label>
+        <textarea rows="4" cols="50" name="desc"></textarea><br/>
+        <label>YouTube Video:</label>
+        <input type="text" name="video" id="video-input"/>
+        <button>Upload Video</button><br/><br/>
+        <input type="submit" value="Submit" id="submit-button"/>
+      </form>
+    </div>
+
+    <div id="map"></div>
+
+      <div id="infowindow-content">
+        <img src="" width="16" height="16" id="place-icon">
+        <span id="place-name"  class="title"></span><br/>
+        <span id="place-address"></span>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0sjQ8PzXtpqZGJ9TPk_s08gGtMGYas1k&libraries=places&callback=initMap"
+          async defer></script>
+
+  </body>
+</html>
