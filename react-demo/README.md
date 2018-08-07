@@ -1,3 +1,10 @@
+# To run app:
+
+1. cd to project directory
+2. npm install
+3. npm install react-google-maps
+4. npm start
+
 Note: This currently only displays a map. No other actions work.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
