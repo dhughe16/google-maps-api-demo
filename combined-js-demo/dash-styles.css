@@ -1,0 +1,61 @@
+
+html, body {
+  height: 100%;
+  background: lightgrey;
+}
+
+body {
+  font-size: 11pt;
+  font-family: Arial, sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
+
+h1 {
+  font: 1.75em Arial, sans-serif;
+  font-weight: bold;
+  line-height: 20pt;
+  margin: auto;
+  width: 30%;
+  padding: 1em;
+  text-align: center;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: royalblue;
+    color: white;
+    width: 50%;
+}
+
+tr:hover {
+          background-color: lightgrey;
+    }
+
+#main {
+  width: 75%;
+  max-width: 940px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  }
+
+#del {
+  float: right;
+}
