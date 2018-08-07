@@ -44,6 +44,10 @@ th {
     width: 50%;
 }
 
+tr:hover {
+          background-color: lightgrey;
+    }
+
 #main {
   width: 75%;
   max-width: 940px;
